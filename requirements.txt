@@ -1,5 +1,5 @@
--e ./libs/kotaemon[all]
--e ./libs/ktem
+-e .
 graphrag
 future
 unstructured
+pdfservices-sdk @ git+https://github.com/niallcm/pdfservices-python-sdk.git@bump-and-unfreeze-requirements
