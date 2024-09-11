@@ -3,4 +3,4 @@ git+https://github.com/Cinnamon/kotaemon.git@v0.4.15#egg=ktem&subdirectory=libs/
 graphrag==0.3.3
 future
 pdfservices-sdk@git+https://github.com/niallcm/pdfservices-python-sdk.git@bump-and-unfreeze-requirements
-tenacity==8.2.3
+tenacity>=9.0.0,<10.0.0
