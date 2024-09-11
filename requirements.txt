@@ -1,5 +1,5 @@
--e .
+-e git+https://github.com/Cinnamon/kotaemon.git@main#egg=kotaemon&subdirectory=libs/kotaemon
+-e git+https://github.com/Cinnamon/kotaemon.git@main#egg=ktem&subdirectory=libs/ktem
 graphrag
 future
-unstructured
-pdfservices-sdk @ git+https://github.com/niallcm/pdfservices-python-sdk.git@bump-and-unfreeze-requirements
+pdfservices-sdk@git+https://github.com/niallcm/pdfservices-python-sdk.git@bump-and-unfreeze-requirements

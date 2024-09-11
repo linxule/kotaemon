@@ -14,11 +14,7 @@ from ktem.main import App  # noqa
 
 app = App()
 demo = app.make()
-demo.queue().launch(
-    favicon_path=app._favicon,
-    inbrowser=True,
-    allowed_paths=[
-        "libs/ktem/ktem/assets",
-        GRADIO_TEMP_DIR,
-    ],
-)
+
+if __name__ == "__main__":
+    port = int(os.environ.get("PORT", 7860))
+    demo.launch(server_name="0.0.0.0", server_port=port)
